@@ -1,0 +1,39 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program? Statement of Account Generator
+
+2. What real-world problem will your program address or help to solve? Since I currently run a real estate office, this program will help me generate a statement of account faster by developing a program to read a csv file and print it in pdf form.
+
+3. What will you learn from developing this program? Developing this program will provide valuable learnings into how a python code can streamline workload for users. By creating a script that reads data from a CSV file and generates a PDF statement of account, I can learn how to automate
+                                                        tasks in the office, ultimately making operations faster and more efficient. This project will help me apply recently acquired knowledge in python to real-world scenarios, enhancing my skills in data processing and report generation.
+
+4. What Python modules will your program use? From my research, I would need csv, pytest, reportlab.lib.pagesizes, and reportlab.pdfgen.canvas.
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+5. List the names of functions you will need? The names of the functions that I will need is generate_statement_of_account and it will take the parameters of client_name, payment_data_file, output_pdf, row_number, column_number. 
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+6. List the names of the test functions you will write.
+I will write a test function test_generate_statement_of_account to see if the function successfully generates a pdf file when provided with
+valid input parameters. It ensures that the pdf file is created as expected and will verify the correctness of the function's behavior.
